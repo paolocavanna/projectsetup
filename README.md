@@ -18,21 +18,21 @@ Questo permette di eseguire i comandi Ruby dalla shell di Windows
 6. Navigare fino alla propria cartella di progetto:
 	cd /cartella
 7. Installare [Grunt] [http://gruntjs.com/] globalmente:
-	<code>npm install -g grunt-cli</code>
+	<p><code>npm install -g grunt-cli</code></p>
 8. Installare [Bower] [http://bower.io/] globalmente:
-	npm install -g bower
+	<p><code>npm install -g bower</code></p>
 9. Installare i pacchetti di Bower:
-	bower install
+	<p><code>bower install</code></p>
 10. In Gruntfile.js modificare il proprio localhost:
-	connect.options.hostname (riga 52)
+	<p><code>connect.options.hostname</code></p> (riga 52)
 11. Eseguire Grunt:
-	grunt
+	<p><code>grunt</code></p>
 I file su cui lavorare si trovano in:
 	- hbs: /src/templates
 	- css: /src/css
 	- js: /src/js
 12. Per aggiornare il browser automaticamente a ogni salvataggio di file, eseguire:
-	grunt server
+	<p><code>grunt server<code></p>
 13. Per compilare il progetto eseguire:
-	grunt build
+	<p><code>grunt build<code></p>
 Navigando nella cartella /build/ si troveranno i file generati
