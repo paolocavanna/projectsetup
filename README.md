@@ -18,7 +18,7 @@ Questo permette di eseguire i comandi Ruby dalla shell di Windows
 6. Navigare fino alla propria cartella di progetto:
 	cd /cartella
 7. Installare [Grunt] [http://gruntjs.com/] globalmente:
-	npm install -g grunt-cli
+	<code>npm install -g grunt-cli</code>
 8. Installare [Bower] [http://bower.io/] globalmente:
 	npm install -g bower
 9. Installare i pacchetti di Bower:
