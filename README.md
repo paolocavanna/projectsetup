@@ -24,7 +24,7 @@ Questo permette di eseguire i comandi Ruby dalla shell di Windows
 9. Installare i pacchetti di Bower:
 	<p><code>bower install</code></p>
 10. In Gruntfile.js modificare il proprio localhost:
-	<p><code>connect.options.hostname</code></p> (riga 52)
+	<p><code>connect.options.hostname</code>(riga 52)</p> 
 11. Eseguire Grunt:
 	<p><code>grunt</code></p>
 I file su cui lavorare si trovano in:
