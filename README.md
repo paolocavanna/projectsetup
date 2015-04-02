@@ -19,12 +19,18 @@ Questo permette di eseguire i comandi Ruby dalla shell di Windows
 	<p><code>cd /cartella</code></p>
 7. Installare <b>Grunt</b> [http://gruntjs.com/] globalmente:
 	<p><code>npm install -g grunt-cli</code></p>
+	Eseguire <code>grunt -v</code> per assicurarsi della corretta installazione di Grunt.
+	<br>
+	Se la shell dovesse riportare un errore (es.: "grunt" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.), si deve aggiungere <code>npm</code> alle variabili d'ambiente di Windows.
+ Per farlo, è necessario eseguire da shell:
+ <p><code>path=%PATH%;%APPDATA%\npm</code></p>
 8. Installare <b>Bower</b> [http://bower.io/] globalmente:
 	<p><code>npm install -g bower</code></p>
 9. Installare i pacchetti di Bower:
 	<p><code>bower install</code></p>
 10. In Gruntfile.js modificare il proprio localhost:
-	<p><code>connect.options.hostname</code>(riga 52)</p> 
+	<p><code>connect.options.hostname</code>(riga 52)</p>
 11. Eseguire Grunt:
 	<p><code>grunt</code></p>
 I file su cui lavorare si trovano in:
@@ -35,4 +41,4 @@ I file su cui lavorare si trovano in:
 	<p><code>grunt server<code></p>
 13. Per compilare il progetto eseguire:
 	<p><code>grunt build<code></p>
-Navigando nella cartella /build/ si troveranno i file generati
+Navigando nella cartella <i>/build/</i> si troveranno i file generati
