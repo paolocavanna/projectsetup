@@ -21,8 +21,8 @@ Questo permette di eseguire i comandi Ruby dalla shell di Windows
 	<p><code>npm install -g grunt-cli</code></p>
 	Eseguire <code>grunt -v</code> per assicurarsi della corretta installazione di Grunt.
 	<br>
-	Se la shell dovesse riportare un errore (es.: "grunt" non è riconosciuto come comando interno o esterno,
- un programma eseguibile o un file batch.), si deve aggiungere <code>npm</code> alle variabili d'ambiente di Windows.
+	Se la shell dovesse riportare un errore (es.: <code>"grunt" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.</code>), si deve aggiungere <code>npm</code> alle variabili d'ambiente di Windows.
  Per farlo, è necessario eseguire da shell:
  <p><code>path=%PATH%;%APPDATA%\npm</code></p>
 8. Installare <b>Bower</b> [http://bower.io/] globalmente:
