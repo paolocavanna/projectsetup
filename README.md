@@ -41,4 +41,4 @@ I file su cui lavorare si trovano in:
 	<p><code>grunt server<code></p>
 13. Per compilare il progetto eseguire:
 	<p><code>grunt build<code></p>
-Navigando nella cartella <i>/build/</i> si troveranno i file generati
+Navigando nella cartella <i>/build/</i> si troveranno i file generati.
